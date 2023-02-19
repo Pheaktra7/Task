@@ -12,16 +12,4 @@ use App\Models\Unit;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
-    public function index()
-    {
-        //
-
-    }
-
-    public function add_product()
-    {
-        
-    }
-
 }
